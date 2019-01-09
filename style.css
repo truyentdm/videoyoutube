@@ -828,7 +828,7 @@ select.form-control.bfh-countries:hover {
     padding-left: 0;
     padding: 0 0 1em;
 }
-.song-info h3{
+.video-h3,.song-info h3{
   color: #272C2E;
   font-size: 22px;
   margin: 0;
@@ -1935,7 +1935,7 @@ background: url(//p.w3layouts.com/demos/my_play/web/images/social.png) no-repeat
 	.share li a {
 		font-size: 13px;
 	}
-	.song-info h3 {
+	.video-h3,.song-info h3 {
 		font-size: 20px;
 	}
 	.single-right-grid-right {
@@ -2619,7 +2619,7 @@ background: url(//p.w3layouts.com/demos/my_play/web/images/social.png) no-repeat
 	.sports-recommended-grid {
 		width: 50% !important;
 	}
-	.song-info h3 {
+	.video-h3,.song-info h3 {
 		font-size: 15px;
 	}
 	.video-grid iframe {
