@@ -2761,7 +2761,7 @@ background: url(//p.w3layouts.com/demos/my_play/web/images/social.png) no-repeat
 	.footer-bottom ul li a.f-history {
 		padding: .52em 1em .52em 3em;
 	}
-	.item-footer{
-		display: table-cell;
+	.item-title{
+		display: table-cell !important;
 	}
 }
