@@ -21,14 +21,11 @@ function getCookie(cname) {
   return "";
 }
 
-function checkCookie() {
-  var user=getCookie("username");
+function checkCookie(cname) {
+  var user=getCookie(cname);
   if (user != "") {
-	alert("Welcome again " + user);
+	return 1;
   } else {
-	 user = prompt("Please enter your name:","");
-	 if (user != "" && user != null) {
-	   setCookie("username", user, 30);
-	 }
+	 return 0;
   }
 }
