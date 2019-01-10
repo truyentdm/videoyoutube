@@ -1572,8 +1572,8 @@ form.navbar-form.navbar-right {
 		margin: 0;
 	}
 	.top-search form input[type="submit"] {
-	    right: 26px;
-		top: 18px;
+	    right: 36px;
+		top: 36px;
 	}
 	a.navbar-brand {
 	    float: none;
@@ -1603,8 +1603,8 @@ form.navbar-form.navbar-right {
 		margin: 0;
 	}
 	.top-search form input[type="submit"] {
-	    right: 26px;
-		top: 18px;
+	    right: 36px;
+		top: 36px;
 	}
 	a.navbar-brand {
 	    float: none;
@@ -1854,8 +1854,8 @@ form.navbar-form.navbar-right {
 		padding: 0 0 0.5em 0;
 	}
 	.top-search form input[type="submit"] {
-		right: 14px;
-		top: 6px;
+		right: 36px;
+		top: 36px;
 	}
 	.top-search form input[type="text"] {
 		padding: 6px 36px 6px 12px;
