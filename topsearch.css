@@ -994,7 +994,7 @@ form.navbar-form.navbar-right {
 	}
 	.top-search form input[type="submit"] {
 	    right: 26px;
-		top: 26px;
+		top: 18px;
 	}
 	a.navbar-brand {
 	    float: none;
@@ -1552,7 +1552,7 @@ form.navbar-form.navbar-right {
     border: none !important;
     position: absolute !important;
     outline: none !important;
-    top: 9px;
+    top: 26px;
     right: 26px;
 }
 @media (max-width: 767px) {
