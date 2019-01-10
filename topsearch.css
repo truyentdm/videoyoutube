@@ -1,7 +1,7 @@
 #header-elements{float:right}
 #header-social{float:left;position:relative;display:block;margin-right:0}
 #header-social ul{overflow:hidden}
-#header-social ul li{line-height:35px;text-align:center;float:left;margin-top:0;margin-left:10px;padding:0;position:relative}
+#header-social ul li{text-align:center;float:left;margin-top:0;margin-left:10px;padding:0;position:relative}
 #header-social ul li a{text-align:center;color:#000;font-size:19px;position:relative;padding:3px;text-decoration:none}
 #header-social ul li a:before{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 #header-social ul li a:hover{color:#ddd}
@@ -26,7 +26,7 @@
 #header-social .codepen:before{content:"\f1cb"}
 #navbar-iframe{display:none;}*{padding:0;margin:0}
 #header-wrapper {padding: 35px 0;min-height: 100px;}
-#header {margin-top:-15px;}
+
 #header h1 {
 	color:#666666;
 text-shadow:2px 2px 2px #FFFFFF;
