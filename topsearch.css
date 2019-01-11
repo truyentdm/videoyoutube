@@ -821,10 +821,8 @@ form.navbar-form.navbar-right {
 	    display: block;
 	}
 	.sidebar ul li a {
-	  padding: .3em 0;
 	  display: block;
 	  float: none;
-	  color: #FFFFFF;
 	}
 	.nav-sidebar ul li a {
 		padding: .5em 0 .5em 39em !important;
