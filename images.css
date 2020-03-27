@@ -1,0 +1,99 @@
+/* Photo Gallery styles */
+.gallery {
+    margin: 0 auto 0;
+    width: 100%;
+	text-align: center;
+}
+.gallery a {
+    display: inline-block;
+	position: relative;
+    height: 135px;
+    width: 180px;
+
+    /* CSS3 Prevent selections */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.gallery a img {
+    border: 8px solid #fff;
+    border-bottom: 20px solid #fff;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+
+    /* CSS3 Box sizing property */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* CSS3 transition rules */
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+
+    /* CSS3 Box Shadow */
+    -moz-box-shadow: 2px 2px 4px #444;
+    -webkit-box-shadow: 2px 2px 4px #444;
+    -o-box-shadow: 2px 2px 4px #444;
+    box-shadow: 2px 2px 4px #444;
+}
+/* Custom CSS3 rotate transformation */
+.gallery a img {
+    /* -moz-transform: rotate(-5deg); */
+    /* -webkit-transform: rotate(-5deg); */
+    /* transform: rotate(-5deg); */
+}
+
+.gallery a:focus img {
+    cursor: default;
+    height: 250%;
+    left: -150px;
+    top: -100px;
+    position: absolute;
+    width: 250%;
+    z-index: 1001;
+
+    /* CSS3 transition rules */
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+
+    /* CSS3 transform rules */
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+
+@media screen and (max-width: 960px){
+
+}
+
+/*table*/
+@media screen and (max-width: 768px){
+	.gallery a {
+		height: 155px;
+		width: 200px;
+	}
+}
+/*mobile*/
+@media screen and (max-width: 480px){
+	.gallery a:focus img{
+		height: 180%;
+		left: -80px;
+		top: -80px;
+		position: absolute;
+		width: 180%;
+	}
+}
