@@ -15,7 +15,8 @@ function tabEvent(tab){
 }
 
 document.addEventListener("DOMContentLoaded", function(event) { 
-	var tb = document.getElementsByClassName("content-1")[0].offsetHeight + "px";
-	document.getElementsByClassName("tabcontent")[0].style.height = tb;
-
+	if(document.getElementsByClassName("content-1").length>0){
+		var tb = document.getElementsByClassName("content-1")[0].offsetHeight + "px";
+		document.getElementsByClassName("tabcontent")[0].style.height = tb;
+	}
 });
