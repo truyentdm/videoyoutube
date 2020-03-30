@@ -15,7 +15,7 @@ function tabEvent(tab){
 }
 
 document.addEventListener("DOMContentLoaded", function(event) { 
-	var = tb = document.getElementsByClassName("content-1")[0].offsetHeight + "px";
+	var tb = document.getElementsByClassName("content-1")[0].offsetHeight + "px";
 	document.getElementsByClassName("tabcontent")[0].style.height = tb;
 
 });
