@@ -17,7 +17,7 @@
 	border: 1px solid #8ebfbc;
 }
 .top-search form input[type=&quot;submit&quot;] {
-	background: url(//p.w3layouts.com/demos/my_play/web/images/9.png) no-repeat 0px 0px !important;
+	background: url("https://p.w3layouts.com/demos/my_play/web/images/9.png") no-repeat 0px 0px !important;
 	width: 18px !important;
 	height: 18px !important;
 	border: none !important;
