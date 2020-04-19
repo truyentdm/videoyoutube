@@ -59,7 +59,7 @@
     left: -150px;
     top: -100px;
     position: absolute;
-    width: 250%;
+    width: 250% !important;
     z-index: 1001;
 
     /* CSS3 transition rules */
@@ -84,7 +84,7 @@
 @media screen and (max-width: 768px){
 	.gallery a {
 		height: 155px;
-		width: 200px;
+		width: 200px !important;
 	}
 }
 /*mobile*/
