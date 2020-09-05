@@ -143,3 +143,75 @@
 	font-family: Cambria, Georgia, serif;
 	border-left: 8px solid rgba(63,148,148, 0.1);
 }
+
+/***VS2****/
+      .w3-container:after, .w3-container:before, .w3-panel:after, .w3-panel:before, .w3-row:after, .w3-row:before, .w3-row-padding:after, .w3-row-padding:before, .w3-cell-row:before, .w3-cell-row:after, .w3-clear:after, .w3-clear:before, .w3-bar:before, .w3-bar:after{
+        content: "";
+        display: table;
+        clear: both;
+	}
+    .w3-black, .w3-hover-black:hover{
+		color: #fff!important;
+    	background-color: #000!important;
+	}
+    .w3-warning, .w3-hover-warning:hover{
+		color: #fff!important;
+    	background-color: #f0ad4e!important;
+	}
+	.w3-bar {
+        width: 100%;
+        overflow: hidden;
+    }
+	.w3-bar .w3-button {
+        white-space: normal;
+    }
+	.w3-bar .w3-bar-item {
+        padding: 8px 16px;
+        float: left;
+        width: auto;
+        border: none;
+        display: block;
+        outline: 0;
+    }
+    .w3-red, .w3-hover-red:hover {
+        color: #fff!important;
+        background-color: #f44336!important;
+    }
+    .w3-primary, .w3-hover-primary:hover {
+        color: #fff!important;
+        background-color: #337ab7!important;
+    }
+    .w3-btn, .w3-button {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .w3-btn, .w3-button {
+        border: none;
+        display: inline-block;
+        padding: 8px 16px;
+        vertical-align: middle;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
+        background-color: inherit;
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+    button, [type=button], [type=reset], [type=submit] {
+        -webkit-appearance: button;
+    }
+    button, select {
+        text-transform: none;
+    }
+	.w3-button:hover {
+        color: #000!important;
+        background-color: #ccc!important;
+    }
+	.w3-border {
+        border: 1px solid #ccc!important;
+    }
