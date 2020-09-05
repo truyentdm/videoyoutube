@@ -1,4 +1,4 @@
-function openCity(evt, cityName,css ="w3-red") {
+function openCity(evt, cityName,css ="w3-primary") {
   var i, x, tablinks;
   x = document.getElementsByClassName("city");
   for (i = 0; i < x.length; i++) {
