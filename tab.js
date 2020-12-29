@@ -13,7 +13,7 @@ function ppYoutube(pause=true){
 function openCity(evt, cityName,css =" w3-primary",video=false) {
   var i, x, tablinks;
   if(video){
-    ppYoutube(true);
+    //ppYoutube(true);
   }
   x = document.getElementsByClassName("city");
   for (i = 0; i < x.length; i++) {
